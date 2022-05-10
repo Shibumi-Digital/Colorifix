@@ -1,0 +1,233 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow-y: hidden;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #FFF7F1 100%);
+    margin: 0;
+    padding: 0;
+    }
+
+.header {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 48vw;
+    top: 5.6vh;
+    left: 4vw;
+}
+
+.logo {
+   width: 8vw;
+   margin-right: 2.36vw;
+
+}
+
+.background{
+    position: fixed;
+    width:120%;
+    margin: 0
+}
+
+.distant{
+    position: fixed;
+    width: 120%;
+}
+
+.wrapper{
+    /* position: relative; */
+    width:750px;
+    height: 701.53px;
+    
+    /* animation: x-axis-lateral 2s infinite alternate ease-in-out; */
+  
+}
+
+/* @keyframes x-axis-lateral {
+    0% { transform: translate(-10px) translateY(10px); }
+    100% { transform: translate(10px) translateY(-10px); }
+  } */
+
+  .inner {
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    top:17.5vh;
+    right:10vw;
+  }
+
+.main {
+    display: block;
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    top: 17.5vh;
+    right: 10vw;
+}
+
+.main-hover{
+    display: none;
+}
+
+/* .main:hover{
+    opacity: 0;
+    transition: 1.5s;
+  } */
+
+
+.cut {
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    right: 10vw;
+    top: 17.5vh;
+}
+
+.mito {
+    width: 2.3vw;
+    height: auto;
+    position: absolute;
+    top: 47vh;
+    right: 45vw;
+}
+
+.mito-2 {
+    width: 3.3vw;
+    height: auto;
+    position: absolute;
+    top: 38vh;
+    right: 41vw;
+}
+
+.nucleus {
+    width: 16vw;
+    height: auto;
+    position: absolute;
+    top: 40vh;
+    right: 24vw
+}
+
+.imp {
+    width: 22vw;
+    height: auto;
+    position: absolute;
+    right: 13.5vw;
+    top: 30.5vh;
+}
+
+.Nucleolus {
+    width: 6.5vw;
+    height: auto;
+    position: absolute;
+    right: 28vw;
+    top: 53.5vh;
+}
+
+
+qc{
+    width: 1.04vw;
+    filter: drop-shadow(20px 3px 11px rgba(0, 0, 0, 0.25));
+}
+
+.qc-1{
+    position: absolute;
+    top: 31vh;
+    right: 39vw
+}
+
+.qc-2{
+    position: absolute;
+    top: 26vh;
+    right: 35vw
+}
+
+.qc-3{
+    position: absolute;
+    top: 30vh;
+    right: 23vw
+}
+
+.qc-4{
+    position: absolute;
+    top: 52vh;
+    right: 17vw
+}
+
+.qc-5{
+    position: absolute;
+    top: 75vh;
+    right: 25vw
+}
+
+.qc-6{
+    position: absolute;
+    top: 79vh;
+    right: 35vw
+}
+
+.qc-7{
+    position: absolute;
+    top: 76vh;
+    right: 41vw
+}
+
+
+
+/* -------------Overlay Panel--------------- */
+
+.panel{
+    display: none;
+    width: 28vw;
+    position: absolute;
+    top: 27vh;
+    right: 51vw;
+}
+
+.panel-click{
+    display: block;
+    width: 28vw;
+    position: absolute;
+    top: 27vh;
+    right: 51vw;
+}
+
+
+.vector{
+    position: relative;
+    right: -295px;
+    top: -320px
+}
+
+
+h2 {
+    margin: 0
+}
+
+.coloration{
+    margin: 0;
+}
+
+.overlay-header {
+ display: flex;
+ justify-content: space-between;
+ width: 90%;
+ 
+}
+
+.overlay-text {
+    width: 357px;
+    min-height: 300px;
+}
+
+p{
+    font-size: 24px;
+    margin: 0
+}
+
+.overlay-team-btn{
+    align-self: flex-start;
+    margin-left: 5%;
+}
